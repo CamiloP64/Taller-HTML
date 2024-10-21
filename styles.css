@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+#hero img {
+  max-height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+#history, #competitions, #players, #subscribe {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+}
+
+#competitions .col-md-4, #players .col-md-4 {
+  margin-bottom: 30px;
+}
+
+#competitions img, #players img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #555;
+  margin-top: 0;
+}
+
+#subscribe button {
+  background: #007bff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#subscribe button:hover {
+  background: #0056b3;
+}
+
+footer {
+  background-color: #444;
+  color: #ddd;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #hero img {
+    max-height: 30vh;
+  }
+}
+
+
+
+  
+  
